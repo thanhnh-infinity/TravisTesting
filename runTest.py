@@ -15,4 +15,4 @@ def testNormal(flag):
        print "FAIL"
        exit(1)
 #testWebService();
-testNormal("PASS")
+testNormal("FAIL")
