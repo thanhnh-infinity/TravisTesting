@@ -7,5 +7,12 @@ def testWebService():
    if (wsResult == "It fails"):
        print "Fail"
        exit(1)
-
-testWebService();
+def testNormal(flag):
+   if (flag == "PASS"):
+       print "PASS"
+       exit(0)
+   if (flag == "FAIL"):
+       print "FAIL"
+       exit(1)
+#testWebService();
+testNormal()
