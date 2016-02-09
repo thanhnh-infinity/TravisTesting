@@ -5,6 +5,7 @@ cache: pip
 install:
   - pip install -r requirements.txt
   - pip install cherrypy
-script:
+before_script:
   - python web_services.py
+script:
   - python runTest.py
